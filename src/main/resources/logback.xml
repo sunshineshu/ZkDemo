@@ -35,7 +35,6 @@
                 <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
                     <level>ERROR</level>
                 </filter>
-                <dsn>https://c701f047e0d246e1a817e821ca89ec74:909b2cd4e7194df3a2dee8b27ae527ba@sentry.vipkid.com.cn/58</dsn>
                 <ravenFactory>com.getsentry.raven.DefaultRavenFactory</ravenFactory>
             </appender>
         </then>
