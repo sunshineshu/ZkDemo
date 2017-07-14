@@ -11,7 +11,7 @@
             <pattern>%d{yyyy-MM-dd/HH:mm:ss.SSS}|%X{localIp}|%X{requestId}|%X{requestSeq}|^_^|[%t] %-5level %logger{50} %line - %m%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-            <fileNamePattern>logs/camel.log.%d{yyyy-MM-dd}.%i</fileNamePattern>>
+            <fileNamePattern>logs/zkdemo.log.%d{yyyy-MM-dd}.%i</fileNamePattern>>
             <maxFileSize>256MB</maxFileSize>
             <maxHistory>15</maxHistory>
             <totalSizeCap>32GB</totalSizeCap>
